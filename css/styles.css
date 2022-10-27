@@ -49,9 +49,12 @@ a {
     padding: 0%;
     font-weight: 900;
 }
+.nav-ul-flex .link-header:hover,
 .nav-ul-flex .link-header:focus{
     color: var(--highlight-color);
 }
+
+
 .nav-flex, .nav-ul-flex, .ul-mail-flex {
     display: flex;
     list-style: none;
@@ -65,11 +68,6 @@ a {
     letter-spacing: 0.02em;
     color: var(--main-text-color) ;
     display: inline-block;
-    cursor: pointer;
-}
-.link-header:hover{
-    color: var(--highlight-color);
-    
 }
 
 li {
@@ -84,24 +82,33 @@ li {
     justify-content: space-between;
     padding: 0%;
 }
+
+.ul-mail-flex .link-header-mail .link-header-number:hover,
+.ul-mail-flex .link-header-mail .link-header-number:focus {
+    color: var(--highlight-color);
+}
+ 
+
 .link-header-mail{
-    color: var(--secondary-text-color);
     position: absolute;
 width: 135px;
 height: 16px;
 left: 1078px;
 top: 32px;
 list-style: none;
+color: var(--secondary-text-color);
 }
+
 .link-header-number{
-    color: var(--secondary-text-color);
     position: absolute;
     width: 122px;
     height: 16px;
     left: 1263px;
     top: 32px;
     list-style: none;
+    color: var(--secondary-text-color);
 }
+
 
 .hero{
     Width: 1600px;
@@ -181,11 +188,8 @@ section {
 }
 
 .skill-descr {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7142;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -203,10 +207,9 @@ p {
         width: 100%;
 }
 .sec-head{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,1666;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
@@ -243,7 +246,7 @@ p {
 .card-name {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1,1875;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
@@ -277,6 +280,10 @@ background: var(--fill-color);
     list-style: none;
     text-decoration: none;
 }
+.footer-elem-item:hover,
+.footer-elem-item:focus{
+    color: var(--highlight-color);
+}
 .footer-link-address {
     font-family: "Roboto", sans-serif;
     color: var(--main-white-color);
@@ -285,25 +292,21 @@ background: var(--fill-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7142;
     
 }
-.footer-link-address:hover {
-    color: var(--highlight-color);
-  }
+
 .footer-links {
     font-family: "Roboto", sans-serif;
     margin-left: 215px;
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7142;
     letter-spacing: 0.03em;
     font-style: normal;
 }
-.footer-links:hover {
-    color: var(--highlight-color);
-  }
+
 .sec-one-portfolio {
     display: flex;
     flex-direction: column;
@@ -357,11 +360,9 @@ background: var(--fill-color);
     border: 1px solid var(--card-border-color);
 }
 .portfolio-name{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
  
     
     letter-spacing: 0.06em;
@@ -373,6 +374,5 @@ background: var(--fill-color);
     color: var(--secondary-text-color);
     font-size: 16px;
     letter-spacing: 0.03em;
-    font-weight: 400;
     line-height: 1.875;
 }
