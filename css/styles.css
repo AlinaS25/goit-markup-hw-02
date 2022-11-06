@@ -297,6 +297,7 @@ background: var(--fill-color);
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1,7142;
+    text-decoration: none;
     
 }
 .footer-link-address:hover,
@@ -311,7 +312,7 @@ background: var(--fill-color);
     font-size: 14px;
     line-height: 1,7142;
     letter-spacing: 0.03em;
-
+text-decoration: none;
 }
 .footer-links:hover,
 .footer-links:focus {
